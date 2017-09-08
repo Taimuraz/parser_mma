@@ -39,6 +39,6 @@ for i in sum_event_link.itertuples():
         'ROUND': round_,
         'TIME': time
     })
+    history_stat = DataFrame(all_fights)
+    history_stat.to_csv('all_fights.csv',';',index=False)
 #===============================================================================
-history_stat = DataFrame(all_fights)
-history_stat.to_csv('all_fights.csv',';',index=False)
