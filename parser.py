@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import lxml.html as html
 from pandas import DataFrame
 
