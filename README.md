@@ -1,4 +1,5 @@
 # parser_mma
+Python3, lxml and pandas must be installed.
 To run parser.py script just go to the root directory parser_mma. 
 Make script parser.py executable.
 Use command chmod +x in the linux terminal.
